@@ -4,7 +4,7 @@ let lista = document.querySelector('#lista');
 
 Ntarefa.addEventListener('keypress', (e) => {
 
-  if(e.keycode = 15){ 
+  if(e.keycode == 15){ 
     //um "=" para o elemento "keycode" funcionar
     
     let tarefa = {
