@@ -5,12 +5,22 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="lista-tarefas">
-    <input id="tarefa" type="text" placeholder="Digite uma tarefa...">
-    <button id="adicionar">Adicionar</button>
-    <ul class="ponto" id="tarefas"></ul>
-    
-  </div>
+  <div class="conteudo">
+    <div class="digitar">
+      <input type="text" id="Ntarefa" placeholder="Adicionar tarefa">
+      <button id="add">Adicionar</button>
+    </div>
+
+    <ul id="lista">
+      <li class="tarefas">
+        <span class="edit">tarefa 1</span>
+        <div class="btn">
+          <button class="editar">Editar</button>
+          <button class="excluir">Excluir</button>
+        </div>
+      </li>
+    </ul>
+   </div>
 
   <script src="https://jaoneves24.github.io/Lista/script.js"></script>
 </body>
